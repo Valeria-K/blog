@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/templates/news_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news_statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_statistics.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
