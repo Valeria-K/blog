@@ -11,7 +11,7 @@ class NewsListView(ListView):
 class NewsAddView(CreateView):
     model = Post
     template_name = 'news_add.html'
-    fields = '__all__'
+    fields = ['title', 'text', 'author', 'tags']
 
 
 class NewsDetailView(DetailView):
@@ -19,6 +19,17 @@ class NewsDetailView(DetailView):
     template_name = 'news_detail.html'
 
 
-class NewsStatisticsView(TemplateView):
+def get(request, pk):
+    post = Post.objects.get(pk=pk)
+    post.views += 1
+    post.save()
+    return render(request, "news_detail.html", {'post': post})
+
+
+class NewsStatisticsView(ListView):
     template_name = 'news_statistics.html'
+    model = Post
+    queryset = Post.objects.all().order_by('-views')
+
+
 

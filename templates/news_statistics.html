@@ -7,7 +7,25 @@
 </head>
 <body>
 {% block content %}
-<h1>no statistics yet</h1>
+<h1>Statistics table</h1>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Date</th>
+      <th scope="col">Views</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for news in object_list %}
+    <tr>
+      <th scope="row">{{news.title}}</th>
+      <td>{{news.date}}</td>
+      <td>{{news.views}}</td>
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
 {% endblock content %}
 </body>
 </html>
