@@ -7,8 +7,11 @@
 </head>
 <body>
 {% block content %}
-{% for post in object_list %}
-<p><h2><a href="{% url 'news_detail' post.pk %}">{{post.title}} </a> </h2>  Views: {{post.views}}</p>
+{% for news in object_list %}
+<p ><h2><a href="{% url 'news_detail' news.pk %}"> &nbsp;{{news.title}} </a> </h2> &nbsp; &nbsp; Views: {{news.views}}</p>
+
+
+
 {% endfor %}
 {% endblock content %}
 </body>
