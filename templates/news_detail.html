@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends '_base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+<div class="post-entry" style="margin-left:20px;">
+    <h1>{{ post.title }}</h1>
+    <h2><p>{{ post.text }}</p></h2>
+    <p>by {{post.author}}</p>
+    <p>{{post.date}}</p>
+    <p class="tags">Tags: {{ post.tags.all|join:", " }}</p>
+</div>
+{% endblock content %}
+</body>
+</html>
