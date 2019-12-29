@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9bdef9f6-59ae-44d4-9c9e-04daf5919fce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-29 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-29 (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-29 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-29 (7).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news_statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_statistics.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

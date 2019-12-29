@@ -10,8 +10,7 @@
 <div class="post-entry" style="margin-left:20px;">
     <h1>{{ post.title }}</h1>
     <h2><p>{{ post.text }}</p></h2>
-    <p>by {{post.author}}</p>
-    <p>{{post.date}}</p>
+    <p>by {{post.author}} | {{post.date}}</p>
     <p class="tags">Tags: {{ post.tags.all|join:", " }}</p>
     <p>Views: {{ post.views }}</p>
 </div>
